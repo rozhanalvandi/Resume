@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <Content Remove="wwwroot\SiteSample\" />
+    <Content Remove="wwwroot\SiteSample\assets\" />
+    <Content Remove="wwwroot\SiteSample\full\" />
+    <Content Remove="wwwroot\SiteSample\full-rtl\" />
+    <Content Remove="wwwroot\SiteSample\rtl\" />
+    <Content Remove="wwwroot\adminsample\plugins\" />
+    <Content Remove="wwwroot\adminsample\pages\" />
+    <Content Remove="wwwroot\adminsample\dist\" />
+    <Content Remove="wwwroot\adminsample\build\" />
+    <Content Remove="wwwroot\AdminSample\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\SiteSample\" />
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\SiteSample\.idea\" />
+    <Folder Include="wwwroot\SiteSample\assets\" />
+    <Folder Include="wwwroot\SiteSample\full\" />
+    <Folder Include="wwwroot\SiteSample\full-rtl\" />
+    <Folder Include="wwwroot\SiteSample\rtl\" />
+    <Folder Include="wwwroot\AdminSample\" />
+    <Folder Include="Views\Admin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Views\Admin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\SiteSample\.idea\modules.xml" />
+    <None Include="wwwroot\SiteSample\.idea\v-card2.iml" />
+    <None Include="wwwroot\SiteSample\.idea\workspace.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
+  </ItemGroup>
+</Project>
