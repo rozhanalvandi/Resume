@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{6FC049E3-C150-4D89-8177-92949AC5575D}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/ResumeDbContext/ResumeDbContext.cs">
+    <Files>
+      <File FileName="Views/Admin/index.cshtml" Line="1" Column="1" />
+      <File FileName="Models/Entities/Experince/Experience.cs" Line="11" Column="23" />
+      <File FileName="Models/Entities/MySkils/MySkils.cs" Line="12" Column="1" />
+      <File FileName="Models/ResumeDbContext/ResumeDbContext.cs" Line="8" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Resume.Presentation">
+            <Node name="Resume.Presentation" selected="True">
+              <Node name="Models" expanded="True">
+                <Node name="Entities" expanded="True">
+                  <Node name="Education" expanded="True" />
+                  <Node name="Experince" expanded="True" />
+                  <Node name="MySkils" expanded="True" />
+                </Node>
+                <Node name="ResumeDbContext" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Resume.Presentation PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
