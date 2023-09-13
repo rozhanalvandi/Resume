@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/Resume.Presentation.csproj": {}
+    "/Users/rozhanalvandi/Desktop/Resume.Presentation 5.59.56 PM/Resume.Presentation.csproj": {}
   },
   "projects": {
-    "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/Resume.Presentation.csproj": {
+    "/Users/rozhanalvandi/Desktop/Resume.Presentation 5.59.56 PM/Resume.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/Resume.Presentation.csproj",
+        "projectUniqueName": "/Users/rozhanalvandi/Desktop/Resume.Presentation 5.59.56 PM/Resume.Presentation.csproj",
         "projectName": "Resume.Presentation",
-        "projectPath": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/Resume.Presentation.csproj",
+        "projectPath": "/Users/rozhanalvandi/Desktop/Resume.Presentation 5.59.56 PM/Resume.Presentation.csproj",
         "packagesPath": "/Users/rozhanalvandi/.nuget/packages/",
-        "outputPath": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/obj/",
+        "outputPath": "/Users/rozhanalvandi/Desktop/Resume.Presentation 5.59.56 PM/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/rozhanalvandi/.nuget/NuGet/NuGet.Config"
