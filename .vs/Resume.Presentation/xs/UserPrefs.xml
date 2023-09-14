@@ -1,15 +1,28 @@
-﻿<Properties StartupConfiguration="{9246AD5D-806D-4EBA-8019-2870115F7823}|https">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupConfiguration="{9246AD5D-806D-4EBA-8019-2870115F7823}|https" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.ItemProperties.Resume.Presentation PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Resume.Presentation PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Admin/index.cshtml">
+    <Files>
+      <File FileName="Program.cs" Line="33" Column="1" />
+      <File FileName="Views/Home/Index.cshtml" />
+      <File FileName="Views/Shared/_Layout.cshtml" />
+      <File FileName="Views/Admin/index.cshtml" Line="18" Column="33" />
+      <File FileName="Models/ErrorViewModel.cs" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Resume.Presentation" selected="True" />
+          <Node name="Resume.Presentation">
+            <Node name="Resume.Presentation">
+              <Node name="Views" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="index.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -18,4 +31,6 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
