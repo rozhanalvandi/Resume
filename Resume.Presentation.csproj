@@ -30,10 +30,14 @@
     <Folder Include="wwwroot\SiteSample\rtl\" />
     <Folder Include="wwwroot\AdminSample\" />
     <Folder Include="Views\Admin\" />
+    <Folder Include="Models\Entitis\" />
+    <Folder Include="Models\Entitis\Education\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Models\" />
     <None Remove="Views\Admin\" />
+    <None Remove="Models\Entitis\" />
+    <None Remove="Models\Entitis\Education\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\SiteSample\.idea\modules.xml" />
