@@ -1,4 +1,4 @@
-﻿\
+﻿
 <!DOCTYPE html>
 <html lang="en">
 
@@ -47,9 +47,9 @@
     <!-- Preloader -->
     <div class="preloader">
         <div class="preloader__wrap">
-            <svg class="spinner-container" viewBox="0 0 52 52">
+        <svg class="spinner-container" viewBox="0 0 52 52">
                 <circle class="path" cx="26px" cy="26px" r="20px" fill="none" stroke-width="4px" />
-            </svg>
+        </svg>
             <div class="preloader__progress"><span></span></div>
         </div>
     </div>
@@ -67,21 +67,21 @@
 
         <div class="nav-wrap">
             <ul class="nav">
-                <li class="nav__item"><a href="about.html">About</a></li>
-                <li class="nav__item"><a class="active" href="resume.html">Resume</a></li>
+                <li class="nav__item"><a asp-controller="About" asp-action="Index" >About</a></li>
+                <li class="nav__item"><a class="active" asp-controller="Home" asp-action="Index" >Resume</a></li>
                 <li class="nav__item"><a href="portfolio.html">Portfolio</a></li>
                 <li class="nav__item"><a href="blog.html">Blog</a></li>
                 <li class="nav__item"><a href="contact.html">Contact</a></li>
             </ul>
         </div>
 
-        <div class="wrapper">
+        <div class="wrapper"  style="background-color: #e6e8fa">
             <!-- Sidebar -->
-            <aside class="sidebar" data-simplebar>
+            <aside class="sidebar" data-simplebar  style="background-color: #e6e8fa">
                 <div>
                     <div class="avatar-wrap">
                         
-                                <img style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;" src="/iStock_000060704580_Large.png" alt="Profile Avatar">
+                                <img style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;" src="/IMG_6063.jpeg" alt="Profile Avatar">
                         
                     </div>
                     <div class="text-center">

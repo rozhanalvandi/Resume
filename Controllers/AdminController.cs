@@ -11,7 +11,7 @@ namespace Resume.Presentation.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Index(string email, string username)
+        public IActionResult Index(string email, string username,string password,string confirmPassword)
         {
             return View();
         }
@@ -20,6 +20,7 @@ namespace Resume.Presentation.Controllers
         {
             return View();
         }
+
 
     }
 }

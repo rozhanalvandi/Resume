@@ -3981,8 +3981,8 @@
       "PackagePath": "staticwebassets/AdminSample/plugins/timepicker/bootstrap-timepicker.min.js"
     },
     {
-      "Id": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/wwwroot/IMG_6063.heic",
-      "PackagePath": "staticwebassets/IMG_6063.heic"
+      "Id": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/wwwroot/IMG_6063.jpeg",
+      "PackagePath": "staticwebassets/IMG_6063.jpeg"
     },
     {
       "Id": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/wwwroot/SiteSample/assets/demo/iconClose.svg",
@@ -4503,10 +4503,6 @@
     {
       "Id": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
-    },
-    {
-      "Id": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/wwwroot/iStock_000060704580_Large.png",
-      "PackagePath": "staticwebassets/iStock_000060704580_Large.png"
     },
     {
       "Id": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/wwwroot/js/site.js",

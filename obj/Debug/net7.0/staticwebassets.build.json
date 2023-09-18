@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "baJ+Lq5VhaUb/PiM28VbwxltBXgzQ+SQLnjWFXijBEQ=",
+  "Hash": "4ot64MXiHbUDxgAZGUvQIypIHi91lVYYY9jagpzSCVk=",
   "Source": "Resume.Presentation",
   "BasePath": "_content/Resume.Presentation",
   "Mode": "Default",
@@ -16983,12 +16983,12 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/wwwroot/IMG_6063.heic",
+      "Identity": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/wwwroot/IMG_6063.jpeg",
       "SourceId": "Resume.Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/wwwroot/",
       "BasePath": "_content/Resume.Presentation",
-      "RelativePath": "IMG_6063.heic",
+      "RelativePath": "IMG_6063.jpeg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -16997,24 +16997,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/IMG_6063.heic"
-    },
-    {
-      "Identity": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/wwwroot/iStock_000060704580_Large.png",
-      "SourceId": "Resume.Presentation",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/wwwroot/",
-      "BasePath": "_content/Resume.Presentation",
-      "RelativePath": "iStock_000060704580_Large.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/iStock_000060704580_Large.png"
+      "OriginalItemSpec": "wwwroot/IMG_6063.jpeg"
     },
     {
       "Identity": "/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/wwwroot/js/site.js",

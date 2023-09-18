@@ -32,12 +32,18 @@
     <Folder Include="Views\Admin\" />
     <Folder Include="Models\Entitis\" />
     <Folder Include="Models\Entitis\Education\" />
+    <Folder Include="Models\Entitis\User\" />
+    <Folder Include="Models\ResumeDbContext\" />
+    <Folder Include="Views\About\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Models\" />
     <None Remove="Views\Admin\" />
     <None Remove="Models\Entitis\" />
     <None Remove="Models\Entitis\Education\" />
+    <None Remove="Models\Entitis\User\" />
+    <None Remove="Models\ResumeDbContext\" />
+    <None Remove="Views\About\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\SiteSample\.idea\modules.xml" />
@@ -46,5 +52,17 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.11">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.11">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="MySql.Data" Version="8.1.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
   </ItemGroup>
 </Project>

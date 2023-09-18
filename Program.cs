@@ -1,4 +1,8 @@
-﻿namespace Resume.Presentation;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+//using mysql_connect.Data;
+
+namespace Resume.Presentation;
 
 public class Program
 {
@@ -7,8 +11,19 @@ public class Program
         var builder = WebApplication.CreateBuilder(args);
 
         // Add services to the container.
-        builder.Services.AddControllersWithViews();
+        //var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
+        //builder.Services.AddDbContextPool<ApplicationDBContext>(options =>
+        //options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
+        //);
+
+
+        //builder.services.AddDatabaseDeveloperPageExceptionFilter();
+        //builder.Services.AddDefaultIdentity<IdentityUser>(options => options.Signin.RequireConfirmedAccount = true)
+        //.AddEntityFrameworkStores < ApplicationDbContext > ();
+
+
+        builder.Services.AddControllersWithViews();
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.

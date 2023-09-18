@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/Views/Admin/index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW4vaW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +54,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0FkbWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/rozhanalvandi/Projects/Resume/Resume.Presentation/Views/Shared/_Layout.cshtml]
