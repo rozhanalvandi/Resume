@@ -1,25 +1,38 @@
 ﻿<Properties StartupConfiguration="{9246AD5D-806D-4EBA-8019-2870115F7823}|https" GitUserInfo="UsingMD">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.ItemProperties.Resume.Presentation PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/About/Index.cshtml">
     <Files>
-      <File FileName="Program.cs" Line="14" Column="188" />
-      <File FileName="Views/Home/Index.cshtml" />
-      <File FileName="Views/Shared/_Layout.cshtml" />
-      <File FileName="Views/Admin/index.cshtml" />
-      <File FileName="Models/ErrorViewModel.cs" />
-      <File FileName="Models/Entitis/User/User.cs" />
-      <File FileName="Controllers/AdminController.cs" />
-      <File FileName="Views/Shared/_AdminLayout.cshtml" />
-      <File FileName="appsettings.json" Line="10" Column="127" />
+      <File FileName="Views/Home/Index.cshtml" Line="17" Column="83" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="71" Column="77" />
+      <File FileName="Views/About/Index.cshtml" Line="19" Column="45" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Resume.Presentation">
             <Node name="Resume.Presentation">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views">
+                <Node name="About" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+                <Node name="Admin" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="AdminSample" expanded="True" />
+                <Node name="css" expanded="True" />
+                <Node name="js" expanded="True" />
+                <Node name="lib" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
@@ -29,8 +42,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Resume.Presentation PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
