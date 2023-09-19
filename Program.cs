@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using System.Configuration;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 //using mysql_connect.Data;
 
@@ -22,7 +23,8 @@ public class Program
         //builder.Services.AddDefaultIdentity<IdentityUser>(options => options.Signin.RequireConfirmedAccount = true)
         //.AddEntityFrameworkStores < ApplicationDbContext > ();
 
-
+//        Services.Add(new ServiceDescriptor(typeof(SakilaContext), new SakilaContext(Configuration.GetConnectionString
+//(        "DefaultConnection"))));
         builder.Services.AddControllersWithViews();
         var app = builder.Build();
 

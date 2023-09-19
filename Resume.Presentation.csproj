@@ -35,6 +35,8 @@
     <Folder Include="Models\Entitis\User\" />
     <Folder Include="Models\ResumeDbContext\" />
     <Folder Include="Views\About\" />
+    <Folder Include="Models\Entitis\Exprience\" />
+    <Folder Include="Models\Entitis\MySkills\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Models\" />
@@ -44,6 +46,8 @@
     <None Remove="Models\Entitis\User\" />
     <None Remove="Models\ResumeDbContext\" />
     <None Remove="Views\About\" />
+    <None Remove="Models\Entitis\Exprience\" />
+    <None Remove="Models\Entitis\MySkills\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\SiteSample\.idea\modules.xml" />
