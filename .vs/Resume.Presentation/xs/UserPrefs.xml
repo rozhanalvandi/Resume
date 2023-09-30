@@ -1,38 +1,24 @@
-﻿<Properties StartupConfiguration="{9246AD5D-806D-4EBA-8019-2870115F7823}|https" GitUserInfo="UsingMD">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Resume.Presentation PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+﻿<Properties StartupConfiguration="{9246AD5D-806D-4EBA-8019-2870115F7823}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/About/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Views/Home/Index.cshtml" Line="17" Column="83" />
-      <File FileName="Views/Shared/_Layout.cshtml" Line="71" Column="77" />
-      <File FileName="Views/About/Index.cshtml" Line="19" Column="45" />
+      <File FileName="Models/Entitis/Education/Education.cs" />
+      <File FileName="appsettings.json" Line="3" Column="35" />
+      <File FileName="Program.cs" Line="23" Column="1" />
+      <File FileName="Models/ResumeDbContext/ResumeDbContext.cs" Line="10" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Resume.Presentation">
             <Node name="Resume.Presentation">
-              <Node name="Models" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views">
-                <Node name="About" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
+              <Node name="Models" expanded="True">
+                <Node name="Entitis" expanded="True">
+                  <Node name="Education" expanded="True" />
                 </Node>
-                <Node name="Admin" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="ResumeDbContext" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True">
-                <Node name="AdminSample" expanded="True" />
-                <Node name="css" expanded="True" />
-                <Node name="js" expanded="True" />
-                <Node name="lib" expanded="True" />
-              </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -42,4 +28,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Resume.Presentation PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
