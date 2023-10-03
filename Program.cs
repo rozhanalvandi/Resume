@@ -10,12 +10,12 @@ namespace Resume.Presentation;
 public class Program
 {
 
-    public IConfiguration Configuration { get; }
-    public Program(IConfiguration configuration)
-    {
-        Configuration = configuration;
+    //public IConfiguration Configuration { get; }
+    //public Program(IConfiguration configuration)
+    //{
+    //    Configuration = configuration;
 
-    }
+    //}
     //public void ConfigureServices(IServiceCollection services)
     //{
     //    services.AddDbContextPool<ResumeDbContext>(options => options.UseMySQL(Configuration.GetConnectionString("DefaultConnection")));
@@ -25,6 +25,10 @@ public class Program
     {
         var builder = WebApplication.CreateBuilder(args);
         builder.Services.AddControllersWithViews();
+
+        //var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+        builder.Services.AddDbContext<ResumeDbContext>(x =>
+        x.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
         var app = builder.Build();
 

@@ -1,26 +1,19 @@
 ﻿<Properties StartupConfiguration="{9246AD5D-806D-4EBA-8019-2870115F7823}|Default">
+  <MonoDevelop.Ide.ItemProperties.Resume.Presentation PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/ResumeDbContext/ResumeDbContext.cs">
     <Files>
       <File FileName="Models/Entitis/Education/Education.cs" />
-      <File FileName="appsettings.json" Line="3" Column="35" />
-      <File FileName="Program.cs" Line="23" Column="1" />
-      <File FileName="Models/ResumeDbContext/ResumeDbContext.cs" Line="10" Column="1" />
+      <File FileName="appsettings.json" Line="4" Column="1" />
+      <File FileName="Program.cs" Line="8" Column="1" />
+      <File FileName="Models/ResumeDbContext/ResumeDbContext.cs" Line="15" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Resume.Presentation">
-            <Node name="Resume.Presentation">
-              <Node name="Models" expanded="True">
-                <Node name="Entitis" expanded="True">
-                  <Node name="Education" expanded="True" />
-                </Node>
-                <Node name="ResumeDbContext" expanded="True" />
-              </Node>
-              <Node name="Program.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="Resume.Presentation" selected="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -28,10 +21,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Resume.Presentation PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

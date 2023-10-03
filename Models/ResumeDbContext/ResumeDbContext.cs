@@ -1,19 +1,30 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
+using Resume.Presentation.Models.Entitis.Education;
+
 namespace Resume.Presentation.Models.ResumeDbContext
 {
     public class ResumeDbContext : DbContext
     {
-
-        static readonly string connectionString = "Server=localhost; User ID=root; Password=1234; Database=ResumeDaneshkar";
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //Dbcontext implementation
+        public ResumeDbContext(DbContextOptions options) : base(options)
         {
-            optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
         }
     }
-    
+
+    public class YourDbContextFactory : IDesignTimeDbContextFactory<ResumeDbContext>
+    {
+        public ResumeDbContext CreateDbContext(string[] args)
+        {
+            var optionsBuilder = new DbContextOptionsBuilder<ResumeDbContext>();
+            optionsBuilder.UseSqlServer("Server=localhost;Database=ResumeDaneshkar;User Id=sa; Password=Strong.Pwd-123");
+
+            return new ResumeDbContext(optionsBuilder.Options);
+        }
+    }
+
 
 }
 
