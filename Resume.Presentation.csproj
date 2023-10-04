@@ -32,7 +32,6 @@
     <Folder Include="Views\Admin\" />
     <Folder Include="Models\Entitis\" />
     <Folder Include="Models\Entitis\Education\" />
-    <Folder Include="Models\Entitis\User\" />
     <Folder Include="Models\ResumeDbContext\" />
     <Folder Include="Views\About\" />
     <Folder Include="Models\Entitis\Exprience\" />
@@ -43,7 +42,6 @@
     <None Remove="Views\Admin\" />
     <None Remove="Models\Entitis\" />
     <None Remove="Models\Entitis\Education\" />
-    <None Remove="Models\Entitis\User\" />
     <None Remove="Models\ResumeDbContext\" />
     <None Remove="Views\About\" />
     <None Remove="Models\Entitis\Exprience\" />

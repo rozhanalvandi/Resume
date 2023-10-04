@@ -1,19 +1,34 @@
 ﻿<Properties StartupConfiguration="{9246AD5D-806D-4EBA-8019-2870115F7823}|Default">
-  <MonoDevelop.Ide.ItemProperties.Resume.Presentation PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Models/ResumeDbContext/ResumeDbContext.cs">
     <Files>
       <File FileName="Models/Entitis/Education/Education.cs" />
-      <File FileName="appsettings.json" Line="4" Column="1" />
-      <File FileName="Program.cs" Line="8" Column="1" />
-      <File FileName="Models/ResumeDbContext/ResumeDbContext.cs" Line="15" Column="1" />
+      <File FileName="appsettings.json" />
+      <File FileName="Program.cs" Line="12" Column="1" />
+      <File FileName="Models/ResumeDbContext/ResumeDbContext.cs" Line="9" Column="1" />
+      <File FileName="Index.cshtml" />
+      <File FileName="Migrations/ResumeDbContextModelSnapshot.cs" />
+      <File FileName="Migrations/20231003152842_initialDataBase.cs" />
+      <File FileName="_AdminLayout.cshtml" />
+      <File FileName="Migrations/20231003152842_initialDataBase.Designer.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Resume.Presentation" selected="True" />
+          <Node name="Resume.Presentation">
+            <Node name="Resume.Presentation">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Entitis" expanded="True">
+                  <Node name="Education" expanded="True" />
+                </Node>
+                <Node name="ResumeDbContext" expanded="True">
+                  <Node name="ResumeDbContext.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
@@ -21,7 +36,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Resume.Presentation PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using Resume.Presentation.Models.Entitis.Education;
+using Resume.Presentation.Models.Entitis.Exprience;
+using Resume.Presentation.Models.Entitis.MySkills;
+
 
 namespace Resume.Presentation.Models.ResumeDbContext
 {
@@ -12,6 +15,11 @@ namespace Resume.Presentation.Models.ResumeDbContext
         public ResumeDbContext(DbContextOptions options) : base(options)
         {
         }
+        public DbSet<Education> Educations { get; set; }
+        public DbSet<Exprience> Expriences { get; set; }
+        public DbSet<MySkills> MySkills { get; set; }
+
+
     }
 
     public class YourDbContextFactory : IDesignTimeDbContextFactory<ResumeDbContext>
